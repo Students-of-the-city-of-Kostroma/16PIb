@@ -63,7 +63,7 @@ namespace SimpleLexer
                 }
             }
 
-            yield return new Token("(end)", null, new TokenPosition(currentIndex, currentLine, currentColumn));
+            //yield return new Token("(end)", null, new TokenPosition(currentIndex, currentLine, currentColumn));
         }
     }
 
@@ -73,15 +73,16 @@ namespace SimpleLexer
         {
             this.AddDefinition(new TokenDefinition(
                "(literal)",
-               new Regex(@"(\d+(\.\d+)?)+[e]+(\+|\-)+\d+")));
+               new Regex(@"\d+(\.\d+)?([eE][+\-]\d+)?")));
 
             this.AddDefinition(new TokenDefinition(
                 "(operator)",
                 new Regex(@"\*|\/|\+|\-|\=|\&")));
 
             this.AddDefinition(new TokenDefinition(
-                "(literal)",
-                new Regex(@"\d+(\.\d+)?")));
+                "(parenthesis)",
+                new Regex(@"[\(\)]")
+                ));
 
             this.AddDefinition(new TokenDefinition(
                 "(white-space)",
@@ -90,7 +91,7 @@ namespace SimpleLexer
 
             this.AddDefinition(new TokenDefinition(
                 "(identifier)",
-                new Regex(@"[a-zA-Z_][a-zA-Z0-9_]*")));
+                new Regex(@"\b[a-zA-Z_][a-zA-Z0-9_]*\b")));
         }
     }
 }

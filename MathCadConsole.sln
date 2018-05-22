@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCadConsole", "MathCadCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibrary", "MathLibrary\MathLibrary.csproj", "{7A11F297-AD4E-4FCE-BEB1-39B4B2274846}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibraryTest", "MathLibraryTest\MathLibraryTest.csproj", "{3AF98076-36A9-448F-AB38-328FA858C081}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7A11F297-AD4E-4FCE-BEB1-39B4B2274846}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A11F297-AD4E-4FCE-BEB1-39B4B2274846}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A11F297-AD4E-4FCE-BEB1-39B4B2274846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AF98076-36A9-448F-AB38-328FA858C081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AF98076-36A9-448F-AB38-328FA858C081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AF98076-36A9-448F-AB38-328FA858C081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AF98076-36A9-448F-AB38-328FA858C081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

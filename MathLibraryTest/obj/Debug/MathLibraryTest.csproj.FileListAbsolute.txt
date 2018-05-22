@@ -1,0 +1,7 @@
+D:\Users\student\Desktop\Папка\MathLibraryTest\bin\Debug\MathLibraryTest.dll
+D:\Users\student\Desktop\Папка\MathLibraryTest\bin\Debug\MathLibraryTest.pdb
+D:\Users\student\Desktop\Папка\MathLibraryTest\bin\Debug\MathLibrary.dll
+D:\Users\student\Desktop\Папка\MathLibraryTest\bin\Debug\MathLibrary.pdb
+D:\Users\student\Desktop\Папка\MathLibraryTest\obj\Debug\MathLibraryTest.csprojResolveAssemblyReference.cache
+D:\Users\student\Desktop\Папка\MathLibraryTest\obj\Debug\MathLibraryTest.dll
+D:\Users\student\Desktop\Папка\MathLibraryTest\obj\Debug\MathLibraryTest.pdb

@@ -1,1 +1,9 @@
 D:\Users\student.KSTUEDU\Desktop\16-ПИ-4б\MathCadConsole\MathCadConsole\bin\Debug\MathCadConsole.exe.config
+D:\Users\student\Desktop\Папка\MathCadConsole\bin\Debug\MathCadConsole.exe.config
+D:\Users\student\Desktop\Папка\MathCadConsole\bin\Debug\MathCadConsole.exe
+D:\Users\student\Desktop\Папка\MathCadConsole\bin\Debug\MathCadConsole.pdb
+D:\Users\student\Desktop\Папка\MathCadConsole\bin\Debug\MathLibrary.dll
+D:\Users\student\Desktop\Папка\MathCadConsole\bin\Debug\MathLibrary.pdb
+D:\Users\student\Desktop\Папка\MathCadConsole\obj\Debug\MathCadConsole.csprojResolveAssemblyReference.cache
+D:\Users\student\Desktop\Папка\MathCadConsole\obj\Debug\MathCadConsole.exe
+D:\Users\student\Desktop\Папка\MathCadConsole\obj\Debug\MathCadConsole.pdb
