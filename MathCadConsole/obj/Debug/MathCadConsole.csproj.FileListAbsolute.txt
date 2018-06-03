@@ -7,3 +7,12 @@ D:\Users\student\Desktop\Папка\MathCadConsole\bin\Debug\MathLibrary.pdb
 D:\Users\student\Desktop\Папка\MathCadConsole\obj\Debug\MathCadConsole.csprojResolveAssemblyReference.cache
 D:\Users\student\Desktop\Папка\MathCadConsole\obj\Debug\MathCadConsole.exe
 D:\Users\student\Desktop\Папка\MathCadConsole\obj\Debug\MathCadConsole.pdb
+C:\Users\я\Desktop\16PIb\MathCadConsole\bin\Debug\MathCadConsole.exe.config
+C:\Users\я\Desktop\16PIb\MathCadConsole\bin\Debug\MathCadConsole.exe
+C:\Users\я\Desktop\16PIb\MathCadConsole\bin\Debug\MathCadConsole.pdb
+C:\Users\я\Desktop\16PIb\MathCadConsole\bin\Debug\MathLibrary.dll
+C:\Users\я\Desktop\16PIb\MathCadConsole\bin\Debug\MathLibrary.pdb
+C:\Users\я\Desktop\16PIb\MathCadConsole\obj\Debug\MathCadConsole.csprojResolveAssemblyReference.cache
+C:\Users\я\Desktop\16PIb\MathCadConsole\obj\Debug\MathCadConsole.csproj.CoreCompileInputs.cache
+C:\Users\я\Desktop\16PIb\MathCadConsole\obj\Debug\MathCadConsole.exe
+C:\Users\я\Desktop\16PIb\MathCadConsole\obj\Debug\MathCadConsole.pdb

@@ -3,3 +3,9 @@ D:\Users\student\Desktop\Папка\MathLibrary\bin\Debug\MathLibrary.pdb
 D:\Users\student\Desktop\Папка\MathLibrary\obj\Debug\MathLibrary.csprojResolveAssemblyReference.cache
 D:\Users\student\Desktop\Папка\MathLibrary\obj\Debug\MathLibrary.dll
 D:\Users\student\Desktop\Папка\MathLibrary\obj\Debug\MathLibrary.pdb
+C:\Users\я\Desktop\16PIb\MathLibrary\bin\Debug\MathLibrary.dll
+C:\Users\я\Desktop\16PIb\MathLibrary\bin\Debug\MathLibrary.pdb
+C:\Users\я\Desktop\16PIb\MathLibrary\obj\Debug\MathLibrary.csprojResolveAssemblyReference.cache
+C:\Users\я\Desktop\16PIb\MathLibrary\obj\Debug\MathLibrary.csproj.CoreCompileInputs.cache
+C:\Users\я\Desktop\16PIb\MathLibrary\obj\Debug\MathLibrary.dll
+C:\Users\я\Desktop\16PIb\MathLibrary\obj\Debug\MathLibrary.pdb
