@@ -5,113 +5,44 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace MathCadConsole
 {
     class Program
     {
-        static string Obrpolsksap(List<Token> token)
+        static List<Token> ProvUnarMinus(List<Token> tokens)
         {
-            string result="";
-            Stack<Token> prom = new Stack<Token>();
-            int i = 0;
-            Token first = null;
-            while (i<token.Count)
+            for(int i=0; i<tokens.Count; i++)
             {
-                if (prom.Count != 0)
+                if((i==0) && (tokens[i].Value=="-"))
                 {
-                    first = prom.Peek();
+                    tokens[i + 1].Value = Convert.ToString(-Convert.ToInt32(tokens[i + 1].Value)); 
+                    tokens.Remove(tokens[i]);
                 }
-                if (token[i].Type == "(literal)") { result += token[i].Value + " "; i++; }
-                else
-                if (token[i].Value == "+" || token[i].Value == "-")
+                else if (tokens[i].Value == "-" && (tokens[i - 1].Type == "(operator)" ||  tokens[i - 1].Value=="("))
                 {
-                    if (first == null || first.Value == "(")
-                    {
-                        prom.Push(token[i]);
-                        i++;
-                    }
-                    else if (first.Value == "+" || first.Value == "-" || first.Value == "*" || first.Value == "/")
-                        result += prom.Pop().Value+" ";
-                }
-                else if (token[i].Value == "*" || token[i].Value == "/")
-                {
-                    if (first == null || first.Value == "(" || first.Value == "+" || first.Value == "-")
-                    {
-                        prom.Push(token[i]);
-                        i++;
-                    }
-                    else if (first.Value == "*" || first.Value == "/")
-                        result += prom.Pop().Value+" ";
-                }
-                else
-                    if (token[i].Value == "(")
-                {
-                    prom.Push(token[i]);
-                    i++;
-                }
-                else
-                    if (token[i].Value == ")")
-                {
-                    if (first.Value == "+" || first.Value == "-" || first.Value == "*" || first.Value == "/")
-                    {
-                        result += prom.Pop().Value+" ";
-                    }
-                    else if (first.Value == "(") { prom.Pop(); i++; }
-
-                }
-
-            }
-            result += prom.Pop().Value + " ";
-            return result;
-        }
-        static float Calc(string input)
-        {
-            string[] post = input.Split(' ');
-            Stack<float> digit = new Stack<float> ();
-            float var_1=0, var_2=0;
-            float prom = 0;
-            for (int i = 0; i < post.Count(); i++)
-            {
-                if (float.TryParse(post[i], out prom))
-                {
-                    digit.Push((float)Convert.ToDouble(post[i]));
-                }
-                else if (post[i] == "+")
-                {
-                    digit.Push(digit.Pop() + digit.Pop());
-                }
-                else if (post[i] == "-")
-                {
-                    var_2 = digit.Pop();
-                    var_1 = digit.Pop();
-                    digit.Push(var_1 - var_2);
-                }
-                else if (post[i] == "*")
-                {
-                    digit.Push(digit.Pop() * digit.Pop());
-                }
-                else if (post[i] == "/")
-                {
-                    var_2 = digit.Pop();
-                    var_1 = digit.Pop();
-                    if (var_2 != 0)
-                    {
-                        digit.Push(var_1 / var_2);
-                    }
-                    else throw new Exception("Делить на 0 нельзя!");
+                    tokens[i + 1].Value = Convert.ToString(-Convert.ToInt32(tokens[i + 1].Value));
+                    tokens.Remove(tokens[i]);
                 }
             }
-            return digit.Pop();
+            return tokens;
         }
+
         static void Main(string[] args)
         {
+            ClassObrpolsksap Obrpolsapis = new ClassObrpolsksap();
+            ClassCalc Calcul = new ClassCalc();
             var lexer = new MathLexer();
 
-            List<Token> tokens =  new List<Token>(lexer.Tokenize("(1+2)*4"));
-            string result = Obrpolsksap(tokens);
+            List<Token> tokens =  new List<Token>(lexer.Tokenize("-7-(-2)-(-3)-(-8)"));
+            tokens = ProvUnarMinus(tokens);
+            List<Token> result = Obrpolsapis.Obrpolsksap(tokens);
+            foreach(Token c in result)
+            {
+                Console.WriteLine(c.Value);
+            }
 
-            Console.WriteLine(result);
-            Console.WriteLine(Calc(result));
+            Console.WriteLine(Calcul.Calc(result));
             Console.ReadLine();
         }
     }

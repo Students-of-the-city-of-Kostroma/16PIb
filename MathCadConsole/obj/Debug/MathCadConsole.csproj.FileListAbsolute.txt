@@ -16,3 +16,29 @@ C:\Users\я\Desktop\16PIb\MathCadConsole\obj\Debug\MathCadConsole.csprojResolveA
 C:\Users\я\Desktop\16PIb\MathCadConsole\obj\Debug\MathCadConsole.csproj.CoreCompileInputs.cache
 C:\Users\я\Desktop\16PIb\MathCadConsole\obj\Debug\MathCadConsole.exe
 C:\Users\я\Desktop\16PIb\MathCadConsole\obj\Debug\MathCadConsole.pdb
+D:\Users\student.KSTUEDU\Desktop\16PIb-master\MathCadConsole\bin\Debug\MathCadConsole.exe.config
+D:\Users\student.KSTUEDU\Desktop\16PIb-master\MathCadConsole\obj\Debug\MathCadConsole.exe
+D:\Users\student.KSTUEDU\Desktop\16PIb-master\MathCadConsole\obj\Debug\MathCadConsole.pdb
+D:\Users\student.KSTUEDU\Desktop\16PIb-master\MathCadConsole\bin\Debug\MathCadConsole.exe
+D:\Users\student.KSTUEDU\Desktop\16PIb-master\MathCadConsole\bin\Debug\MathCadConsole.pdb
+D:\Users\student.KSTUEDU\Desktop\16PIb-master\MathCadConsole\bin\Debug\MathLibrary.dll
+D:\Users\student.KSTUEDU\Desktop\16PIb-master\MathCadConsole\bin\Debug\MathLibrary.pdb
+D:\Users\student.KSTUEDU\Desktop\16PIb-master\MathCadConsole\obj\Debug\MathCadConsole.csprojResolveAssemblyReference.cache
+T:\16-ПИ-4\Алексей Артамонов\Новая папка\16PIb-master1\MathCadConsole\bin\Debug\MathCadConsole.exe.config
+T:\16-ПИ-4\Алексей Артамонов\Новая папка\16PIb-master1\MathCadConsole\obj\Debug\MathCadConsole.pdb
+D:\Users\student\Desktop\16PIb-master1\MathCadConsole\bin\Debug\MathCadConsole.exe.config
+D:\Users\student\Desktop\16PIb-master1\MathCadConsole\obj\Debug\MathCadConsole.pdb
+D:\Users\student\Desktop\16PIb-master1\MathCadConsole\bin\Debug\MathCadConsole.exe
+D:\Users\student\Desktop\16PIb-master1\MathCadConsole\bin\Debug\MathCadConsole.pdb
+D:\Users\student\Desktop\16PIb-master1\MathCadConsole\bin\Debug\MathLibrary.dll
+D:\Users\student\Desktop\16PIb-master1\MathCadConsole\bin\Debug\MathLibrary.pdb
+D:\Users\student\Desktop\16PIb-master1\MathCadConsole\obj\Debug\MathCadConsole.csprojResolveAssemblyReference.cache
+D:\Users\student\Desktop\16PIb-master1\MathCadConsole\obj\Debug\MathCadConsole.exe
+C:\Users\Юра\Desktop\16PIb-master1\16PIb-master1\MathCadConsole\bin\Debug\MathCadConsole.exe.config
+C:\Users\Юра\Desktop\16PIb-master1\16PIb-master1\MathCadConsole\obj\Debug\MathCadConsole.exe
+C:\Users\Юра\Desktop\16PIb-master1\16PIb-master1\MathCadConsole\obj\Debug\MathCadConsole.pdb
+C:\Users\Юра\Desktop\16PIb-master1\16PIb-master1\MathCadConsole\bin\Debug\MathCadConsole.exe
+C:\Users\Юра\Desktop\16PIb-master1\16PIb-master1\MathCadConsole\bin\Debug\MathCadConsole.pdb
+C:\Users\Юра\Desktop\16PIb-master1\16PIb-master1\MathCadConsole\bin\Debug\MathLibrary.dll
+C:\Users\Юра\Desktop\16PIb-master1\16PIb-master1\MathCadConsole\bin\Debug\MathLibrary.pdb
+C:\Users\Юра\Desktop\16PIb-master1\16PIb-master1\MathCadConsole\obj\Debug\MathCadConsole.csprojResolveAssemblyReference.cache
